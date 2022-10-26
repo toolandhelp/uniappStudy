@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "选择供应商",
+  "pullRefresh": false,
+  "usingComponents": {
+    "list-data-select": "../../../components/list-data-select/list-data-select"
+  }
+}

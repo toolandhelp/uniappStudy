@@ -1,0 +1,17 @@
+{
+  "navigationBarTitleText": "发放单",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "bill-footer-btn": "../../../components/billFooterBtn/billFooterBtn",
+    "bill-enclosure": "../../../components/billEnclosure/billEnclosure",
+    "uni-popup-dialog": "../../../uni_modules/uni-popup/components/uni-popup-dialog/uni-popup-dialog",
+    "uni-popup": "../../../uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "uni-list-item": "../../../uni_modules/uni-list/components/uni-list-item/uni-list-item",
+    "uni-list": "../../../uni_modules/uni-list/components/uni-list/uni-list",
+    "uni-popup-cancel-dialog": "../../../components/uni-popup-cancel-dialog/uni-popup-cancel-dialog",
+    "uni-icons": "../../../uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "uni-swipe-action-item": "../../../uni_modules/uni-swipe-action/components/uni-swipe-action-item/uni-swipe-action-item",
+    "uni-swipe-action": "../../../uni_modules/uni-swipe-action/components/uni-swipe-action/uni-swipe-action",
+    "uni-section": "../../../components/uni-section/uni-section"
+  }
+}

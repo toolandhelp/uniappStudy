@@ -1,0 +1,32 @@
+"use strict";
+const eventNames = {
+  assetPictureBack: Symbol(),
+  billDetailBack: Symbol(),
+  drawBackDetailBack: Symbol(),
+  transformDetailBack: Symbol(),
+  repairRequestDetailBack: Symbol(),
+  borrowBackBack: Symbol(),
+  requestDrawDetailBack: Symbol(),
+  takeDeliveryDetailBack: Symbol(),
+  employeeInvDetailBack: Symbol(),
+  employeeStockConfirmBack: Symbol(),
+  inventoryConfirmDetailBack: Symbol(),
+  registerDetailBack: Symbol(),
+  signBack: Symbol(),
+  locationSelectBack: Symbol(),
+  deptSelectBack: Symbol(),
+  assetCategorySelectBack: Symbol(),
+  consumableWarehouseBack: Symbol(),
+  consumableCategoryBack: Symbol(),
+  employeeSelectBack: Symbol(),
+  supplierSelectBack: Symbol(),
+  consumableAllocateConditionBack: Symbol(),
+  consumableAllocateEditBill: Symbol(),
+  consumableOrderBack: Symbol(),
+  consumableInwarehouseConditionBack: Symbol(),
+  consumableInwarehouseEditBill: Symbol(),
+  consumableOutwarehouseBillRequestDrawSelectorBack: Symbol(),
+  conditionBack: Symbol(),
+  refreshBack: Symbol()
+};
+exports.eventNames = eventNames;

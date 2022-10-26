@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-segmented-control": "../../uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control",
+    "uni-popup-cancel-dialog": "../uni-popup-cancel-dialog/uni-popup-cancel-dialog",
+    "uni-popup": "../../uni_modules/uni-popup/components/uni-popup/uni-popup"
+  }
+}

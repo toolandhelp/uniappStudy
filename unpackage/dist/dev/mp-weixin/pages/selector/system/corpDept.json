@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "选择公司部门",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "mix-tree": "../../../components/mix-tree/mix-tree"
+  }
+}

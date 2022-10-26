@@ -1,0 +1,76 @@
+@import "./public_mixin.scss";
+@import "./list.scss";
+@import "./advanced_search.scss";
+@import "./bill.scss";
+
+html,
+body,
+page {
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+    background-color: #fff;
+    color: #3c3c3c;
+    -webkit-font-smoothing: antialiased;
+    font: 12px/1.5 arial, "Hiragino Sans GB", sans-serif;
+    @include fill;
+    // #ifndef H5
+    height: 100vh;
+    width:100vw;
+    // #endif
+}
+
+#app {
+    @include fill;
+    // #ifndef H5
+    height: 100vh;
+    width:100vw;
+    // #endif
+}
+
+.fill {
+    @include fill;
+}
+
+.text-ellipsis {
+    @include text-ellipsis;
+}
+
+.width-fill {
+    @include widthFill;
+}
+
+.height-fill {
+    @include heightFill;
+}
+
+.uni-data-pickerview {
+    .selected-area {
+        flex: initial;
+    }
+    .selected-item {
+        padding: 12px 0;
+    }
+}
+
+.bold {
+    font-weight: 600;
+    font-size: 13px;
+    color: #000;
+}
+
+.center,
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+cj-signed-version{
+	    position: absolute;
+	    left: 0;
+	    top: 0;
+	    width: 100%;
+	    z-index: 30;
+	    height: 100%;
+}

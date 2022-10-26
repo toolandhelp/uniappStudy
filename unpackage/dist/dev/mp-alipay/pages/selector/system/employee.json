@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "选择员工",
+  "pullRefresh": false,
+  "usingComponents": {
+    "list-data-select": "../../../components/list-data-select/list-data-select"
+  }
+}

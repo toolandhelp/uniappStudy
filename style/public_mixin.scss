@@ -1,0 +1,20 @@
+@mixin widthFill {
+  width: 100%;
+}
+
+@mixin heightFill {
+  height: 100%;
+}
+
+@mixin fill {
+  @include widthFill;
+  @include heightFill;
+}
+
+@mixin text-ellipsis {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  word-break: keep-all;
+}

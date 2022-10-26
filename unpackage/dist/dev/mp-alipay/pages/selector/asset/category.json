@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "选择资产分类",
+  "pullRefresh": false,
+  "usingComponents": {
+    "mix-tree": "../../../components/mix-tree/mix-tree"
+  }
+}

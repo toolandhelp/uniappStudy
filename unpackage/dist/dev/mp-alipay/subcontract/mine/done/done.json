@@ -1,0 +1,8 @@
+{
+  "defaultTitle": "已办事宜",
+  "pullRefresh": true,
+  "usingComponents": {
+    "uni-list-item": "../../../uni_modules/uni-list/components/uni-list-item/uni-list-item",
+    "uni-list": "../../../uni_modules/uni-list/components/uni-list/uni-list"
+  }
+}

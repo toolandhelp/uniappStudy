@@ -1,0 +1,1 @@
+<cj-signed-version wx:if="{{a}}" bindsuccess="{{b}}" bindcancel="{{c}}" u-i="19fbe356-0" bind:__l="__l"></cj-signed-version>

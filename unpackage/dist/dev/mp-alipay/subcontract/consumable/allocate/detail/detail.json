@@ -1,0 +1,22 @@
+{
+  "defaultTitle": "易耗品调拨",
+  "pullRefresh": false,
+  "allowsBounceVertical": "NO",
+  "usingComponents": {
+    "uni-file-picker": "../../../../components/uni-file-picker/components/uni-file-picker/uni-file-picker",
+    "uni-data-select": "../../../../uni_modules/uni-data-select/components/uni-data-select/uni-data-select",
+    "uni-popup-dialog": "../../../../uni_modules/uni-popup/components/uni-popup-dialog/uni-popup-dialog",
+    "uni-popup": "../../../../uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "uni-data-checkbox": "../../../../uni_modules/uni-data-checkbox/components/uni-data-checkbox/uni-data-checkbox",
+    "uni-easyinput": "../../../../uni_modules/uni-easyinput/components/uni-easyinput/uni-easyinput",
+    "uni-segmented-control": "../../../../uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control",
+    "uni-popup-cancel-dialog": "../../../../components/uni-popup-cancel-dialog/uni-popup-cancel-dialog",
+    "uni-list-item": "../../../../uni_modules/uni-list/components/uni-list-item/uni-list-item",
+    "uni-list": "../../../../uni_modules/uni-list/components/uni-list/uni-list",
+    "uni-fab": "../../../../uni_modules/uni-fab/components/uni-fab/uni-fab",
+    "uni-icons": "../../../../uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "uni-swipe-action-item": "../../../../uni_modules/uni-swipe-action/components/uni-swipe-action-item/uni-swipe-action-item",
+    "uni-swipe-action": "../../../../uni_modules/uni-swipe-action/components/uni-swipe-action/uni-swipe-action",
+    "uni-section": "../../../../components/uni-section/uni-section"
+  }
+}

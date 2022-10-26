@@ -1,0 +1,11 @@
+{
+  "defaultTitle": "盘点明细",
+  "pullRefresh": false,
+  "usingComponents": {
+    "uni-popup-dialog": "../../../../uni_modules/uni-popup/components/uni-popup-dialog/uni-popup-dialog",
+    "uni-popup": "../../../../uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "uni-list-item": "../../../../uni_modules/uni-list/components/uni-list-item/uni-list-item",
+    "uni-list": "../../../../uni_modules/uni-list/components/uni-list/uni-list",
+    "uni-icons": "../../../../uni_modules/uni-icons/components/uni-icons/uni-icons"
+  }
+}

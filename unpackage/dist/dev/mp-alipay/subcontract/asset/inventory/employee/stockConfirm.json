@@ -1,0 +1,11 @@
+{
+  "defaultTitle": "盘点确认",
+  "pullRefresh": false,
+  "usingComponents": {
+    "uni-file-picker": "../../../../components/uni-file-picker/components/uni-file-picker/uni-file-picker",
+    "uni-section": "../../../../components/uni-section/uni-section",
+    "uni-easyinput": "../../../../uni_modules/uni-easyinput/components/uni-easyinput/uni-easyinput",
+    "uni-forms-item": "../../../../uni_modules/uni-forms/components/uni-forms-item/uni-forms-item",
+    "uni-forms": "../../../../uni_modules/uni-forms/components/uni-forms/uni-forms"
+  }
+}

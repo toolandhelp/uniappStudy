@@ -1,0 +1,22 @@
+{
+  "defaultTitle": "资产报废",
+  "pullRefresh": false,
+  "usingComponents": {
+    "process-track": "../../../components/processTrack/processTrack",
+    "start-approval-process": "../../../components/startApprovalProcess/startApprovalProcess",
+    "approval": "../../../components/approval/approval",
+    "uni-file-picker": "../../../components/uni-file-picker/components/uni-file-picker/uni-file-picker",
+    "bill-footer-btn": "../../../components/billFooterBtn/billFooterBtn",
+    "uni-popup-dialog": "../../../uni_modules/uni-popup/components/uni-popup-dialog/uni-popup-dialog",
+    "uni-popup": "../../../uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "uni-list-item": "../../../uni_modules/uni-list/components/uni-list-item/uni-list-item",
+    "uni-list": "../../../uni_modules/uni-list/components/uni-list/uni-list",
+    "uni-data-picker": "../../../uni_modules/uni-data-picker/components/uni-data-picker/uni-data-picker",
+    "uni-easyinput": "../../../uni_modules/uni-easyinput/components/uni-easyinput/uni-easyinput",
+    "uni-fab": "../../../uni_modules/uni-fab/components/uni-fab/uni-fab",
+    "uni-icons": "../../../uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "uni-swipe-action-item": "../../../uni_modules/uni-swipe-action/components/uni-swipe-action-item/uni-swipe-action-item",
+    "uni-swipe-action": "../../../uni_modules/uni-swipe-action/components/uni-swipe-action/uni-swipe-action",
+    "uni-section": "../../../components/uni-section/uni-section"
+  }
+}

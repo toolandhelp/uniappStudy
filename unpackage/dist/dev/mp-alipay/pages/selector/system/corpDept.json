@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "选择公司部门",
+  "pullRefresh": false,
+  "usingComponents": {
+    "mix-tree": "../../../components/mix-tree/mix-tree"
+  }
+}

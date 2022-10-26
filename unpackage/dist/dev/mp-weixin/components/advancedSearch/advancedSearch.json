@@ -1,0 +1,13 @@
+{
+  "component": true,
+  "usingComponents": {
+    "drawer-advanced-search": "../uni-drawer/components/uni-drawer/uni-drawer",
+    "uni-popup-keyword": "../uni-popup-keyword/components/uni-popup-dialog/uni-popup-dialog",
+    "multiple-popup-select": "../multiplePopupSelect/select",
+    "uni-popup": "../../uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "uni-section": "../uni-section/uni-section",
+    "uni-icons": "../../uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "uni-list-item": "../../uni_modules/uni-list/components/uni-list-item/uni-list-item",
+    "uni-list": "../../uni_modules/uni-list/components/uni-list/uni-list"
+  }
+}

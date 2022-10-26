@@ -1,0 +1,36 @@
+{
+	"name": "dothantech-lpapi",
+	"id": "DothanTech-LPAPI",
+	"version": "3.0.3",
+	"description": "德佟电子系列标签打印机接口插件",
+	"_dp_type": "nativeplugin",
+	"_dp_nativeplugin": {
+		"android": {
+			"plugins": [
+				{
+					"type": "module",
+					"name": "DothanTech-LPAPI",
+					"class": "com.dothantech.lpapi.uniplugin.LPAPIModule"
+				},
+				{
+					"type": "module",
+					"name": "DothanTech-LPAPISync",
+					"class": "com.dothantech.lpapi.uniplugin.LPAPISyncModule"
+				}
+			],
+			"integrateType": "aar",
+			"minSdkVersion": 19
+		},
+		"ios": {
+			"plugins": [
+				{
+					"type": "module",
+					"name": "DothanTech-LPAPI",
+					"class": "LPAPIModule"
+				}
+			],
+			"integrateType": "framework",
+			"deploymentTarget": "9.0"
+		}
+	}
+}

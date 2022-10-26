@@ -1,0 +1,10 @@
+{
+  "pullRefresh": false,
+  "allowsBounceVertical": "NO",
+  "usingComponents": {
+    "uni-segmented-control": "../../../uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control",
+    "uni-popup-dialog": "../../../uni_modules/uni-popup/components/uni-popup-dialog/uni-popup-dialog",
+    "uni-popup": "../../../uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "uni-fab": "../../../uni_modules/uni-fab/components/uni-fab/uni-fab"
+  }
+}

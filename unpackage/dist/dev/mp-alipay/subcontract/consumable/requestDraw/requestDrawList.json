@@ -1,0 +1,16 @@
+{
+  "defaultTitle": "易耗品申领列表",
+  "pullRefresh": false,
+  "allowsBounceVertical": "NO",
+  "usingComponents": {
+    "drawer-advanced-search": "../../../components/uni-drawer/components/uni-drawer/uni-drawer",
+    "uni-popup-dialog": "../../../uni_modules/uni-popup/components/uni-popup-dialog/uni-popup-dialog",
+    "uni-popup": "../../../uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "uni-section": "../../../components/uni-section/uni-section",
+    "uni-icons": "../../../uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "uni-list-item": "../../../uni_modules/uni-list/components/uni-list-item/uni-list-item",
+    "uni-data-picker": "../../../uni_modules/uni-data-picker/components/uni-data-picker/uni-data-picker",
+    "uni-list": "../../../uni_modules/uni-list/components/uni-list/uni-list",
+    "uni-easyinput": "../../../uni_modules/uni-easyinput/components/uni-easyinput/uni-easyinput"
+  }
+}

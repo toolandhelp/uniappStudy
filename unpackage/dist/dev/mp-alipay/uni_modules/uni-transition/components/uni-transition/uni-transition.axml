@@ -1,0 +1,1 @@
+<view a:if="{{a}}" ref="ani" animation="{{b}}" class="{{c}}" style="{{d}}" onTap="{{e}}"><slot></slot></view>

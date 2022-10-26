@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "选择易耗品分类",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "mix-tree": "../../../components/mix-tree/mix-tree"
+  }
+}

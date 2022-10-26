@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "报废单列表",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "drawer-advanced-search": "../../../components/uni-drawer/components/uni-drawer/uni-drawer",
+    "anchor-point-and-qty": "../../../components/anchor-point-and-qty/anchor-point-and-qty",
+    "uni-popup-keyword": "../../../components/uni-popup-keyword/components/uni-popup-dialog/uni-popup-dialog",
+    "multiple-popup-select": "../../../components/multiplePopupSelect/select",
+    "uni-popup": "../../../uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "uni-section": "../../../components/uni-section/uni-section",
+    "uni-icons": "../../../uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "uni-list-item": "../../../uni_modules/uni-list/components/uni-list-item/uni-list-item",
+    "uni-list": "../../../uni_modules/uni-list/components/uni-list/uni-list",
+    "uni-easyinput": "../../../uni_modules/uni-easyinput/components/uni-easyinput/uni-easyinput"
+  }
+}

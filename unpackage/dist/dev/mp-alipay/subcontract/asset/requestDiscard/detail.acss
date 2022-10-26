@@ -1,0 +1,299 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.list-item-title.data-v-a6e6d2d2 {
+  font-weight: 600;
+  overflow: hidden;
+  font-size: 14px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 2px 0;
+}
+.assetsDialogList.data-v-a6e6d2d2 {
+  width: 100%;
+  overflow-y: auto;
+}
+.list-item.data-v-a6e6d2d2 {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.list-item-column-title.data-v-a6e6d2d2 {
+  width: 100%;
+  font-weight: 600;
+  font-size: 14px;
+  color: #000;
+  padding: 5px 0;
+}
+.list-item-column-list.data-v-a6e6d2d2 {
+  font-size: 14px;
+  color: #999;
+  display: flex;
+  padding: 5px 0;
+}
+.list-item-column-list text.data-v-a6e6d2d2 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+.take-delivery-checkbox.data-v-a6e6d2d2 {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  top: calc(50% - 12px);
+}
+.list-item-column.data-v-a6e6d2d2 {
+  color: #444;
+  font-size: 12px;
+  width: 100%;
+  padding: 2px 0;
+}
+.list-item-column-row.data-v-a6e6d2d2 text {
+  font-size: 14px;
+  color: #999;
+  width: 100%;
+  display: inline-block;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.list-item-column-msg.data-v-a6e6d2d2 text {
+  font-size: 14px;
+  color: #999;
+  width: 100%;
+  display: inline-block;
+  text-align: left;
+  word-break: break-all;
+}
+.list-item-column.data-v-a6e6d2d2 text {
+  width: 50%;
+  display: inline-block;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.checka.data-v-a6e6d2d2 {
+  display: flex;
+  align-items: center;
+  color: red;
+  width: 10px;
+  margin-left: 5px;
+  text-align: center;
+}
+.ensp.data-v-a6e6d2d2 {
+  margin-left: 16px;
+}
+.list-icon.data-v-a6e6d2d2 {
+  width: 5px;
+  height: 15px;
+  background: blue;
+  margin: 0 5px;
+  border-radius: 2px;
+}
+.uni-date__x-input.data-v-a6e6d2d2 {
+  height: auto;
+}
+.info-item.data-v-a6e6d2d2 {
+  width: 50%;
+  text-align: right;
+}
+.info-item-text.data-v-a6e6d2d2 {
+  font-size: 14px;
+  color: #7d7d7d;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100% !important;
+  text-align: right;
+}
+.info-item-text.data-v-a6e6d2d2 .item-text-overflow {
+  text-align: left;
+}
+.info-item-color.data-v-a6e6d2d2 {
+  color: #333 !important;
+  line-height: 22px;
+}
+.info-flex.data-v-a6e6d2d2 {
+  display: flex;
+}
+.info-icon-del.data-v-a6e6d2d2 {
+  height: 100%;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 10px;
+}
+.info-icon-del view.data-v-a6e6d2d2 {
+  width: 20px;
+}
+.uni_list.data-v-a6e6d2d2 .uniui-close {
+  color: #ff002d !important;
+  line-height: 21px;
+}
+.slot-box.data-v-a6e6d2d2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 14px;
+  color: #333;
+  white-space: nowrap;
+  height: 100%;
+}
+.align-item-center.data-v-a6e6d2d2 {
+  display: flex;
+  align-items: center;
+}
+.list-item.data-v-a6e6d2d2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.list-item-title.data-v-a6e6d2d2 {
+  font-weight: 600;
+  overflow: hidden;
+  font-size: 14px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 2px 0;
+}
+.list-item-column.data-v-a6e6d2d2 {
+  color: #444;
+  font-size: 12px;
+  width: 100%;
+  padding: 2px 0;
+}
+.list-item-column.data-v-a6e6d2d2 text {
+  width: 50%;
+  display: inline-block;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.bill-detail-delete.data-v-a6e6d2d2 {
+  position: absolute;
+  right: 0;
+}
+.input-dialog-body.data-v-a6e6d2d2 {
+  width: 200px;
+  overflow: hidden;
+  font-size: 14px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.input-dialog-text.data-v-a6e6d2d2 {
+  display: flex;
+  justify-content: flex-end;
+}
+.edit-asset-info.data-v-a6e6d2d2 .uni-list-item__container {
+  justify-content: flex-end;
+}
+.input-dialog-body.data-v-a6e6d2d2 .uni-select__input-box {
+  width: 150px;
+}
+.bill-list-request-discard.data-v-a6e6d2d2 .uni-list-item {
+  width: 100%;
+}
+.bill-detail-request-discard.data-v-a6e6d2d2 {
+  height: 100%;
+  overflow-y: auto;
+}
+.unload-attachment.data-v-a6e6d2d2 {
+  width: 100px;
+}
+.unload-attachment button.data-v-a6e6d2d2 {
+  font-size: 14px;
+  width: 100px;
+  height: 40px;
+  margin: 0 5px;
+}
+.toIndex.data-v-a6e6d2d2 {
+  position: fixed;
+  right: 30px;
+  bottom: 80px;
+}
+.toIndex view.data-v-a6e6d2d2 {
+  font-size: 14px;
+  color: #000;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  opacity: 0.6;
+}
+.toIndex view .uni-icons.data-v-a6e6d2d2 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #d0d0d0;
+  line-height: 40px;
+}
+.toIndex.data-v-a6e6d2d2 .uni-icons {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #d0d0d0;
+  line-height: 40px;
+}
+.uni_list.data-v-a6e6d2d2 .uni-list-item__container {
+  height: 21px;
+}
+.data-picker-request-discard.data-v-a6e6d2d2 .input-value {
+  line-height: 18.5px;
+}
+.date-time-request-discard.data-v-a6e6d2d2 .uni-date__x-input {
+  line-height: 14px;
+  height: 14px;
+}
+.date-time-request-discard.data-v-a6e6d2d2 .uni-icons {
+  display: none;
+}
+.bill-detail-request-discard.data-v-a6e6d2d2 .uni-card__header-extra {
+  width: 60%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: right;
+}
+.bill-detail-request-discard.data-v-a6e6d2d2 .uni-card__header-extra-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.bill-list-request-discard.data-v-a6e6d2d2 .uni-section {
+  height: 100%;
+}
+.bill-list-request-discard.data-v-a6e6d2d2 .uni-section > view:last-child {
+  height: calc(100% - 45px);
+}
+.request-discard-fab.data-v-a6e6d2d2 .uni-cursor-point .uni-fab--rightBottom {
+  bottom: 70px;
+}
+.request-discard-fab.data-v-a6e6d2d2 .uni-cursor-point .uni-fab__circle--rightBottom {
+  bottom: 70px;
+}

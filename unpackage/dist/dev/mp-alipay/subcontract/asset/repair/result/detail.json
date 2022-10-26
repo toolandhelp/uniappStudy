@@ -1,0 +1,18 @@
+{
+  "defaultTitle": "维修结果",
+  "pullRefresh": false,
+  "usingComponents": {
+    "uni-file-picker": "../../../../components/uni-file-picker/components/uni-file-picker/uni-file-picker",
+    "uni-popup-dialog": "../../../../uni_modules/uni-popup/components/uni-popup-dialog/uni-popup-dialog",
+    "uni-popup": "../../../../uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "uni-list-item": "../../../../uni_modules/uni-list/components/uni-list-item/uni-list-item",
+    "uni-list": "../../../../uni_modules/uni-list/components/uni-list/uni-list",
+    "uni-popup-cancel-dialog": "../../../../components/uni-popup-cancel-dialog/uni-popup-cancel-dialog",
+    "uni-easyinput": "../../../../uni_modules/uni-easyinput/components/uni-easyinput/uni-easyinput",
+    "uni-icons": "../../../../uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "uni-grid-item": "../../../../uni_modules/uni-grid/components/uni-grid-item/uni-grid-item",
+    "uni-grid": "../../../../uni_modules/uni-grid/components/uni-grid/uni-grid",
+    "uni-section": "../../../../components/uni-section/uni-section",
+    "uni-data-picker": "../../../../uni_modules/uni-data-picker/components/uni-data-picker/uni-data-picker"
+  }
+}

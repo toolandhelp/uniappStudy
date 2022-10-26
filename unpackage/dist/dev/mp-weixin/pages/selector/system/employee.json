@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "选择员工",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "list-data-select": "../../../components/list-data-select/list-data-select"
+  }
+}

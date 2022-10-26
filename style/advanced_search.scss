@@ -1,0 +1,85 @@
+.advanced-search {
+    height: 100%;
+    background: #f2f1f6;
+    .advanced-search_button {
+        background: #fff;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        display: flex;
+        padding: 10px 0;
+        justify-content: space-between;
+        button {
+        width: 100px;
+        height: 40px;
+        font-size: 14px;
+        font-weight: bold;
+        // color: #444;
+        margin: 0 5px;
+        border-radius: 5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        }
+    }
+    .align-item-center_label {
+        display: flex;
+        align-items: center;
+        line-height: 22px;
+    }
+    .slot-box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 14px;
+        color: #333;
+        white-space: nowrap;
+    }
+    .condition_item_text {
+        font-size: 14px;
+        color: rgb(125, 125, 125);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 100% !important;
+        text-align: right;
+    }
+    .content_effective {
+        color: #333 !important;
+        line-height: 22px;
+    }
+    .selector-content_text {
+        font-size: 14px;
+        color: rgb(125, 125, 125);
+        white-space: nowrap;
+        width: 100% !important;
+        text-align: right;
+    }
+    .info-flex {
+        display: flex;
+    }
+    .content-delete_icon {
+        height: 100%;
+        text-align: center;
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 5px;
+        > view {
+        width: 20px;
+        }
+    }
+}
+.condition_item_text ::v-deep .item-text-overflow {
+text-align: left;
+}
+.advanced-condition_content ::v-deep .uniui-close {
+color: #ff002d !important;
+line-height: 21px;
+}
+.advanced-condition_content ::v-deep .uniui-scan {
+color: #007aff !important;
+line-height: 21px;
+}
+.advanced-condition_content ::v-deep .uni-list-item__container {
+height: 21px;
+}

@@ -1,0 +1,574 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{ //主包放公共页面
+			"path": "pages/login/login",
+			"style": {
+				"enablePullDownRefresh": false,
+				"titleNView": false
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"titleNView": false,
+				"enablePullDownRefresh": false
+			}
+		}, //公用 
+		{
+			"path": "pages/login/setting",
+			"style": {
+				"navigationBarTitleText": "服务器设置",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/selector/consumable/warehouse",
+			"style": {
+				"navigationBarTitleText": "选择易耗品仓库",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/selector/consumable/category",
+			"style": {
+				"navigationBarTitleText": "选择易耗品分类",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/selector/system/employee",
+			"style": {
+				"navigationBarTitleText": "选择员工",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/selector/asset/location",
+			"style": {
+				"navigationBarTitleText": "选择存放位置",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/selector/system/corpDept",
+			"style": {
+				"navigationBarTitleText": "选择公司部门",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/selector/asset/category",
+			"style": {
+				"navigationBarTitleText": "选择资产分类",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/selector/asset/supplier",
+			"style": {
+				"navigationBarTitleText": "选择供应商",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/system/signConfirm/signConfirm",
+			"style": {
+				"navigationBarTitleText": "扫码签字确认",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/system/sign/sign",
+			"style": {
+				"navigationBarTitleText": "签字确认",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"subPackages": [
+		{ //资产
+			"root": "subcontract/asset",
+			"pages": [
+				{
+					"path": "myAssetList/list",
+					"style": {
+						"navigationBarTitleText": "我的资产",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "assetInfo/assetView",
+					"style": {
+						"navigationBarTitleText": "资产详情",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "assetInfo/assetPicture",
+					"style": {
+						"navigationBarTitleText": "上传资产图片",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "requestDraw/requestDraw",
+					"style": {
+						"navigationBarTitleText": "资产申领",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "requestDraw/requestDrawList",
+					"style": {
+						"navigationBarTitleText": "申领列表",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "repair/request/repairRequestList",
+					"style": {
+						"navigationBarTitleText": "扫码报修",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "repair/request/repairRequestDetail",
+					"style": {
+						"navigationBarTitleText": "资产报修",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "borrowReturn/canBorrow/list",
+					"style": {
+						"navigationBarTitleText": "可借用资产",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "borrowReturn/quickBorrow/quickBorrow",
+					"style": {
+						"navigationBarTitleText": "扫码借用",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "borrowReturn/quickReturn/quickReturn",
+					"style": {
+						"navigationBarTitleText": "扫码归还"
+					}
+				},
+				{
+					"path": "inventory/employee/list",
+					"style": {
+						"navigationBarTitleText": "员工自助盘点",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "inventory/employee/detail",
+					"style": {
+						"navigationBarTitleText": "盘点明细",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "inventory/employee/stockConfirm",
+					"style": {
+						"navigationBarTitleText": "盘点确认",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "inventory/manageUser/list",
+					"style": {
+						"navigationBarTitleText": "资产盘点",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "inventory/manageUser/detail",
+					"style": {
+						"navigationBarTitleText": "盘点明细",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "inventory/manageUser/inventoryConfirm",
+					"style": {
+						"navigationBarTitleText": "盘点结果",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "inventory/manageUser/register",
+					"style": {
+						"navigationBarTitleText": "盘点登记",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "assetList/list",
+					"style": {
+						"navigationBarTitleText": "资产列表",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "draw/drawDetail",
+					"style": {
+						"navigationBarTitleText": "发放单",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "draw/drawList",
+					"style": {
+						"navigationBarTitleText": "发放列表",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "drawBack/drawBackDetail",
+					"style": {
+						"navigationBarTitleText": "退库单",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "drawBack/drawBackList",
+					"style": {
+						"navigationBarTitleText": "退库列表",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "discard/detail",
+					"style": {
+						"navigationBarTitleText": "资产处置",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "discard/list",
+					"style": {
+						"navigationBarTitleText": "处置列表",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "repair/result/detail",
+					"style": {
+						"navigationBarTitleText": "维修结果",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "requestDiscard/detail",
+					"style": {
+						"navigationBarTitleText": "资产报废",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "requestDiscard/list",
+					"style": {
+						"navigationBarTitleText": "报废单列表",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "transform/detail",
+					"style": {
+						"navigationBarTitleText": "资产转移",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "transform/list",
+					"style": {
+						"navigationBarTitleText": "转移列表",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "assetInfo/scanCode",
+					"style": {
+						"navigationBarTitleText": "扫码查资产",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "repair/record/list",
+					"style": {
+						"navigationBarTitleText": "报修/维修记录",
+						"enablePullDownRefresh": false
+					}
+				}
+			]
+		},
+		{ //易耗品
+			"root": "subcontract/consumable",
+			"pages": [
+				{
+					"path": "allocate/detail/detail",
+					"style": {
+						"navigationBarTitleText": "易耗品调拨",
+						"enablePullDownRefresh": false,
+					
+						"app-plus": {
+							"bounce": "none"
+						} ,// 防止ios端上下拖动
+						 "mp-alipay": { "allowsBounceVertical": "NO" },
+						"allowsBounceVertical": "NO"
+					}
+					
+				},
+				{
+					"path": "allocate/condition/condition",
+					"style": {
+						"navigationBarTitleText": "易耗品调拨单筛选条件",
+						"enablePullDownRefresh": false,
+						 "mp-alipay": { "allowsBounceVertical": "NO" }
+					}
+				},
+				{
+					"path": "allocate/list/list",
+					"style": {
+						"navigationBarTitleText": "易耗品调拨单列表",
+						"enablePullDownRefresh": false,
+						 "mp-alipay": { "allowsBounceVertical": "NO" }
+					}
+				},
+				{
+					"path": "discard/detail/detail",
+					"style": {
+						"navigationBarTitleText": "易耗品报废",
+						"enablePullDownRefresh": false,
+						 "mp-alipay": { "allowsBounceVertical": "NO" }
+					}
+				},
+				{
+					"path": "discard/condition/condition",
+					"style": {
+						"navigationBarTitleText": "易耗品报废-筛选条件",
+						"enablePullDownRefresh": false,
+						 "mp-alipay": { "allowsBounceVertical": "NO" }
+					}
+				},
+				{
+					"path": "inventory/taskDetail",
+					"style": {
+						"enablePullDownRefresh": false,
+						 "mp-alipay": { "allowsBounceVertical": "NO" }
+					}
+				},
+				{
+					"path": "inventory/inventoryConfirm",
+					"style": {
+						"navigationBarTitleText": "易耗品盘点确认",
+						"enablePullDownRefresh": false,
+						 "mp-alipay": { "allowsBounceVertical": "NO" }
+					}
+				},
+				{
+					"path": "discard/list/list",
+					"style": {
+						"navigationBarTitleText": "易耗品报废-列表",
+						"enablePullDownRefresh": false,
+						 "mp-alipay": { "allowsBounceVertical": "NO" }
+					}
+				},
+				{
+					"path": "inventory/list",
+					"style": {
+						"navigationBarTitleText": "易耗品盘点",
+						"enablePullDownRefresh": false,
+						 "mp-alipay": { "allowsBounceVertical": "NO" }
+					}
+				},
+				{
+					"path": "inventory/condition",
+					"style": {
+						"navigationBarTitleText": "易耗品盘点-筛选条件",
+						"enablePullDownRefresh": false,
+						 "mp-alipay": { "allowsBounceVertical": "NO" }
+					}
+				},
+				{
+					"path": "inwarehouse/detail/detail",
+					"style": {
+						"navigationBarTitleText": "易耗品入库",
+						"enablePullDownRefresh": false,
+						 "mp-alipay": { "allowsBounceVertical": "NO" }
+					}
+				},
+				{
+					"path": "inwarehouse/order/order",
+					"style": {
+						"navigationBarTitleText": "易耗品入库-选择采购明细",
+						"enablePullDownRefresh": false,
+						 "mp-alipay": { "allowsBounceVertical": "NO" }
+					}
+				},
+				{
+					"path": "inwarehouse/list/list",
+					"style": {
+						"navigationBarTitleText": "易耗品入库-列表",
+						"enablePullDownRefresh": false,
+						 "mp-alipay": { "allowsBounceVertical": "NO" }
+					}
+				},
+				{
+					"path": "inwarehouse/condition/condition",
+					"style": {
+						"navigationBarTitleText": "易耗品入库-列表筛选器",
+						"enablePullDownRefresh": false,
+						 "mp-alipay": { "allowsBounceVertical": "NO" }
+					}
+				},
+				{
+					"path": "outwarehouse/detail/detail",
+					"style": {
+						"navigationBarTitleText": "易耗品出库",
+						"enablePullDownRefresh": false,
+						 "mp-alipay": { "allowsBounceVertical": "NO" }
+					}
+				},
+				{
+					"path": "outwarehouse/requestDraw/requestDraw",
+					"style": {
+						"navigationBarTitleText": "易耗品出库-选择申请单",
+						"enablePullDownRefresh": false,
+						 "mp-alipay": { "allowsBounceVertical": "NO" }
+					}
+				},
+				{
+					"path": "outwarehouse/list/list",
+					"style": {
+						"navigationBarTitleText": "易耗品出库-列表",
+						"enablePullDownRefresh": false,
+						 "mp-alipay": { "allowsBounceVertical": "NO" }
+					}
+				},
+				{
+					"path": "outwarehouse/condition/condition",
+					"style": {
+						"navigationBarTitleText": "易耗品出库-列表筛选器",
+						"enablePullDownRefresh": false,
+						 "mp-alipay": { "allowsBounceVertical": "NO" }
+					}
+				},
+				{
+					"path": "stock/condition",
+					"style": {
+						"navigationBarTitleText": "库存明细-选择器筛选条件",
+						"enablePullDownRefresh": false,
+						 "mp-alipay": { "allowsBounceVertical": "NO" }
+					}
+				},
+				{
+					"path": "stock/list",
+					"style": {
+						"navigationBarTitleText": "库存明细",
+						"enablePullDownRefresh": false,
+						 "mp-alipay": { "allowsBounceVertical": "NO" }
+					}
+				},
+				{
+					"path": "requestDraw/requestDraw",
+					"style": {
+						"navigationBarTitleText": "易耗品申领",
+						"enablePullDownRefresh": false,
+						 "mp-alipay": { "allowsBounceVertical": "NO" }
+					}
+				},
+				{
+					"path": "requestDraw/requestDrawList",
+					"style": {
+						"navigationBarTitleText": "易耗品申领列表",
+						"enablePullDownRefresh": true,
+						 "mp-alipay": { "allowsBounceVertical": "NO" }
+					}
+				}
+			]
+		},
+		{
+			"root": "subcontract/mine",
+			"pages": [
+				{
+					"path": "index/index",
+					"style": {
+						"navigationBarTitleText": "我的",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "todo/todo",
+					"style": {
+						"navigationBarTitleText": "我的待办",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "done/done",
+					"style": {
+						"navigationBarTitleText": "已办事宜",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "changePassword/index",
+					"style": {
+						"navigationBarTitleText": "修改密码",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "printer/index",
+					"style": {
+						"navigationBarTitleText": "蓝牙打印",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "aboutSystem/index",
+					"style": {
+						"navigationBarTitleText": "关于",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "aboutSystem/userAgreement",
+					"style": {
+						"navigationBarTitleText": "用户协议/隐私政策",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "help/index",
+					"style": {
+						"navigationBarTitleText": "帮助",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "help/onlinePDF",
+					"style": {
+						"navigationBarTitleText": "操作手册",
+						"enablePullDownRefresh": false
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "资产管理系统",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {  //全局处理ios下拉问题
+			"bounce": "none"
+		}
+	}
+}
