@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "已办事宜",
-  "enablePullDownRefresh": true,
-  "usingComponents": {
-    "anchor-point-and-qty": "../../../components/anchor-point-and-qty/anchor-point-and-qty"
-  }
-}

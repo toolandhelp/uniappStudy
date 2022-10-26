@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "签字确认",
-  "enablePullDownRefresh": false,
-  "usingComponents": {
-    "cj-signed-version": "../../../components/cj-signed-version/cj-signed-version"
-  }
-}

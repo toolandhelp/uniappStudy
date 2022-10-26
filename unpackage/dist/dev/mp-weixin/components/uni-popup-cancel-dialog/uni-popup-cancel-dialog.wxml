@@ -1,1 +1,0 @@
-<view class="_uni-popup-cancel-dialog-internal"><uni-popup-dialog wx:if="{{b}}" u-s="{{['d']}}" bindclose="{{a}}" u-i="1293d66d-0" bind:__l="__l" u-p="{{b}}"><slot></slot></uni-popup-dialog></view>

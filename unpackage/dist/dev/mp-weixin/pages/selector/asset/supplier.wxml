@@ -1,1 +1,0 @@
-<list-data-select wx:if="{{c}}" binddone="{{a}}" bindsearch="{{b}}" u-i="c5001176-0" bind:__l="__l" u-p="{{c}}"/>

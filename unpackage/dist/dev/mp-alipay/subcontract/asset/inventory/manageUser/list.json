@@ -1,9 +1,0 @@
-{
-  "defaultTitle": "资产盘点",
-  "pullRefresh": true,
-  "usingComponents": {
-    "uni-easyinput": "../../../../uni_modules/uni-easyinput/components/uni-easyinput/uni-easyinput",
-    "uni-list-item": "../../../../uni_modules/uni-list/components/uni-list-item/uni-list-item",
-    "uni-list": "../../../../uni_modules/uni-list/components/uni-list/uni-list"
-  }
-}

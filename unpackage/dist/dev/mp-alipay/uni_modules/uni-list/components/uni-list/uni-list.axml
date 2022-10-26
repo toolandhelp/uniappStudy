@@ -1,1 +1,0 @@
-<view class="uni-list uni-border-top-bottom"><view a:if="{{a}}" class="uni-list--border-top"></view><slot/><view a:if="{{b}}" class="uni-list--border-bottom"></view></view>

@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "选择资产分类",
-  "enablePullDownRefresh": false,
-  "usingComponents": {
-    "mix-tree": "../../../components/mix-tree/mix-tree"
-  }
-}

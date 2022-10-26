@@ -1,7 +1,0 @@
-{
-  "defaultTitle": "选择易耗品仓库",
-  "pullRefresh": false,
-  "usingComponents": {
-    "mix-tree": "../../../components/mix-tree/mix-tree"
-  }
-}

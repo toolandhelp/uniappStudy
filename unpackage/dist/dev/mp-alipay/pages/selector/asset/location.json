@@ -1,7 +1,0 @@
-{
-  "defaultTitle": "选择存放位置",
-  "pullRefresh": false,
-  "usingComponents": {
-    "mix-tree": "../../../components/mix-tree/mix-tree"
-  }
-}

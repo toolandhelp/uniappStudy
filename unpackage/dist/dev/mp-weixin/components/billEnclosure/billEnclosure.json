@@ -1,7 +1,0 @@
-{
-  "component": true,
-  "usingComponents": {
-    "uni-file-picker": "../uni-file-picker/components/uni-file-picker/uni-file-picker",
-    "uni-section": "../uni-section/uni-section"
-  }
-}

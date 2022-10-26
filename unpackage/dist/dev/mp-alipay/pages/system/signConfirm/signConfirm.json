@@ -1,7 +1,0 @@
-{
-  "defaultTitle": "扫码签字确认",
-  "pullRefresh": false,
-  "usingComponents": {
-    "cj-signed-version": "../../../components/cj-signed-version/cj-signed-version"
-  }
-}

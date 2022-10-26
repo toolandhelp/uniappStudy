@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "上传资产图片",
-  "enablePullDownRefresh": false,
-  "usingComponents": {
-    "uni-file-picker": "../../../components/uni-file-picker/components/uni-file-picker/uni-file-picker",
-    "uni-section": "../../../components/uni-section/uni-section"
-  }
-}

@@ -1,1 +1,0 @@
-<view class="listInfo"><uni-list u-s="{{['d']}}" u-i="1512eb18-0" onVI="__l" u-p="{{b}}"><view><uni-list-item a:for="{{a}}" a:for-item="v0" u-i="{{v0.a}}" onVI="__l" u-p="{{v0.b}}"></uni-list-item></view></uni-list></view>
